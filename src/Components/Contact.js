@@ -1,7 +1,7 @@
 function Contact(){
     return(
         <div className="h-screen">
-            Contact
+            Contact 
         </div>
     )
 

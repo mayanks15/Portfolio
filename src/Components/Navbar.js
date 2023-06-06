@@ -26,7 +26,7 @@ function Navbar() {
             <BiHome />
             Home
           </Link>
-          <div className=" max-w-0 group-hover:max-w-full transition-all duration-300 h-1.5 bg-purple-500 rounded " />
+          <div className=" max-w-0 group-hover:max-w-full transition-all duration-300 h-1.5 bg-purple-500 " />
         </span>
 
         <span className="group transition duration-300 ">
@@ -40,7 +40,7 @@ function Navbar() {
             <RxAvatar />
             About
           </Link>
-          <div className="max-w-0 group-hover:max-w-full transition-all duration-300 h-1.5 bg-purple-500 rounded" />
+          <div className="max-w-0 group-hover:max-w-full transition-all duration-300 h-1.5 bg-purple-500" />
         </span>
 
         <span className="group transition duration-300">
@@ -54,7 +54,7 @@ function Navbar() {
             <BiNetworkChart />
             Skills
           </Link>
-          <div className="max-w-0 group-hover:max-w-full transition-all duration-300 h-1.5 bg-purple-500 rounded" />
+          <div className="max-w-0 group-hover:max-w-full transition-all duration-300 h-1.5 bg-purple-500" />
         </span>
 
         <span className="group transition duration-300">
@@ -68,13 +68,13 @@ function Navbar() {
             <BiCollection />
             Projects
           </Link>
-          <div className="max-w-0 group-hover:max-w-full transition-all duration-300 h-1.5 bg-purple-500 rounded" />
+          <div className="max-w-0 group-hover:max-w-full transition-all duration-300 h-1.5 bg-purple-500 " />
         </span>
 
-        <span className=" rounded-md bg-purple-800 ring ring-purple-400 pl-1 pr-1">
+        <span className=" rounded-full bg-purple-800 pl-3 pr-3">
           <Link
             className={navButton}
-            to="about"
+            to="contact"
             spy={true}
             smooth={true}
             duration={500}

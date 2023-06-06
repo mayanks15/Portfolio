@@ -1,14 +1,14 @@
 import Home from "./Components/Home";
 import Navbar from "./Components/Navbar";
 import About from "./Components/About";
-import Projects from "./Components/Projects";
+import Projects from "./Components/Projects"; 
 import Skills from "./Components/Skills";
 import Contact from "./Components/Contact";
 function App() {
   return (
     <div>
       <div className="bg-gradient-to-br from-zinc-900 via-gray-800 to-purple-950 h-screen">
-        <Navbar />
+        <Navbar/>
         <Home />
       </div>
       <div className="bg-gradient-to-tr from-zinc-900 via-gray-800 to-purple-950 h-screen">
@@ -21,9 +21,9 @@ function App() {
       <div className="bg-gradient-to-tr from-zinc-900 via-gray-800 to-purple-950 h-screen">
         <Projects />
       </div>
-      {/* <div className="bg-gradient-to-br from-zinc-900 via-gray-800 to-purple-950 h-screen">
+      <div className="bg-gradient-to-br from-zinc-900 via-gray-800 to-purple-950 h-screen">
         <Contact/>
-      </div> */}
+      </div>
     </div>
   );
 }

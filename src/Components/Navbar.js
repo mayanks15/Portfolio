@@ -9,13 +9,13 @@ import classNames from "classnames";
 import { Link } from "react-scroll";
 function Navbar() {
   const navButton = classNames(
-    "flex items-center font-semibold text-white text-xs gap-1"
+    "flex font-semibold text-white items-center text-lg gap-1"
   );
   return (
-    <div className=" flex p-3  fixed z-10 backdrop-blur-sm">
-      <div className="items-center  font-semibold text-white text-sm ">MS</div>
-      <div className="flex items-center ml-80">
-        <span className="group transition duration-300 mr-12">
+    <div className="flex fixed z-10 backdrop-blur-sm items-center w-full pl-8 pt-4">
+      <div className="font-semibold text-white text-2xl basis-3/12 ">MS</div>
+      <div className="flex  basis-9/12 justify-evenly">
+        <span className="group transition duration-300 ">
           <Link
             className={navButton}
             to="home"
@@ -26,10 +26,10 @@ function Navbar() {
             <BiHome />
             Home
           </Link>
-          <div className=" max-w-0 group-hover:max-w-full transition-all duration-300 h-1 bg-purple-500 rounded " />
+          <div className=" max-w-0 group-hover:max-w-full transition-all duration-300 h-1.5 bg-purple-500 rounded " />
         </span>
 
-        <span className="group transition duration-300 mr-12">
+        <span className="group transition duration-300 ">
           <Link
             className={navButton}
             to="about"
@@ -40,24 +40,24 @@ function Navbar() {
             <RxAvatar />
             About
           </Link>
-          <div className="max-w-0 group-hover:max-w-full transition-all duration-300 h-1 bg-purple-500 rounded" />
+          <div className="max-w-0 group-hover:max-w-full transition-all duration-300 h-1.5 bg-purple-500 rounded" />
         </span>
 
-        <span className="group transition duration-300 mr-12">
+        <span className="group transition duration-300">
           <Link
             className={navButton}
-            to="about"
+            to="skills"
             spy={true}
             smooth={true}
             duration={500}
           >
             <BiNetworkChart />
-            Work
+            Skills
           </Link>
-          <div className="max-w-0 group-hover:max-w-full transition-all duration-300 h-1 bg-purple-500 rounded" />
+          <div className="max-w-0 group-hover:max-w-full transition-all duration-300 h-1.5 bg-purple-500 rounded" />
         </span>
 
-        <span className="group transition duration-300 mr-12">
+        <span className="group transition duration-300">
           <Link
             className={navButton}
             to="projects"
@@ -68,10 +68,10 @@ function Navbar() {
             <BiCollection />
             Projects
           </Link>
-          <div className="max-w-0 group-hover:max-w-full transition-all duration-300 h-1 bg-purple-500 rounded" />
+          <div className="max-w-0 group-hover:max-w-full transition-all duration-300 h-1.5 bg-purple-500 rounded" />
         </span>
 
-        <span className=" ml-4 p-1 rounded bg-purple-900 mr-12">
+        <span className=" rounded-md bg-purple-800 ring ring-purple-400 pl-1 pr-1">
           <Link
             className={navButton}
             to="about"

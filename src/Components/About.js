@@ -6,25 +6,25 @@ function About() {
         <div className="text-white text-lg ml-16 font-raleway">
           Get to <span className="text-purple-500">Know </span>me...
         </div>
-        <div className="text-white ml-16 mt-8 text-mg space-y-4">
-          <div className=" font-roboto">
-            Hello, everyone! I'm Mayank Sharma, a passionate computer science
+        <div className="text-white ml-16 mt-12 space-y-8">
+          <div className="font-Lora text-xl">
+            Hello, everyone! I'm <span>Mayank Sharma</span> , a passionate computer science
             student with a keen interest in Front-End Development and Blockchain
             Technology.
           </div>
-          <div className=" font-roboto">
+          <div className="font-Lora text-xl">
             With a passion for technology, I've honed my skills in creating
-            captivating user interfaces using{" "}
-            <span className="text-orange-600">HTML</span>,
-            <span className="text-blue-500">CSS</span> , and{" "}
-            <span className="text-yellow-400"> JavaScript</span>, while
+            captivating user interfaces using
+            <span className="text-orange-600"> HTML </span>,
+            <span className="text-blue-500"> CSS </span> , and
+            <span className="text-yellow-400"> JavaScript </span>, while
             harnessing the power of{" "}
             <span className="bg-gradient-to-r from-blue-500 to-slate-200 text-transparent bg-clip-text">
               React.js
             </span>{" "}
-            for dynamic web applications.
+            for dynamic web applications. 
           </div>
-          <div className=" font-roboto">
+          {/* <div className=" font-roboto">
             Moreover, I've delved into the exciting world of{" "}
             <span className="bg-gradient-to-r from-emerald-500 via-green-400 to-yellow-400 text-transparent bg-clip-text">
               smart contracts
@@ -37,7 +37,7 @@ function About() {
           <div className=" font-roboto">
             I'm thrilled to be part of the dynamic community of computer science
             enthusiasts, developers, and blockchain innovators.{" "}
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

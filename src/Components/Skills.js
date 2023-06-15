@@ -82,6 +82,7 @@ function Skills() {
           className="h-40 p-0 transition-all ease-in-out duration-500"
           key={index}
         />
+        
       );
     } else {
       if (skill.id === 6) {

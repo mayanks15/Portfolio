@@ -1,5 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 
+
+
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
@@ -7,7 +9,8 @@ module.exports = {
     fontFamily: {
       roboto : ["Roboto","sans-serif"],
       raleway : ["Raleway","sans-serif"],
-      playfair: ["Playfair Display","serif"]
+      playfair: ["Playfair Display","serif"],
+      Lora: ["lora","serif"]
     },
   },
   plugins: [],

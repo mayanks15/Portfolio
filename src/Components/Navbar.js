@@ -9,7 +9,7 @@ import classNames from "classnames";
 import { Link } from "react-scroll";
 function Navbar() {
   const navButton = classNames(
-    "flex font-semibold text-white items-center text-lg gap-1"
+    "flex font-semibold text-white items-center text-lg gap-1 cursor-pointer"
   );
   return (
     <div className="flex fixed z-10 backdrop-blur-sm items-center w-full pl-8 pt-4">
@@ -26,7 +26,7 @@ function Navbar() {
             <BiHome />
             Home
           </Link>
-          <div className=" max-w-0 group-hover:max-w-full transition-all duration-300 h-1.5 bg-purple-500 " />
+          <div className="rounded-full max-w-0 group-hover:max-w-full transition-all duration-300 h-1.5 bg-purple-500 " />
         </span>
 
         <span className="group transition duration-300 ">
@@ -40,7 +40,7 @@ function Navbar() {
             <RxAvatar />
             About
           </Link>
-          <div className="max-w-0 group-hover:max-w-full transition-all duration-300 h-1.5 bg-purple-500" />
+          <div className="rounded-full max-w-0 group-hover:max-w-full transition-all duration-300 h-1.5 bg-purple-500" />
         </span>
 
         <span className="group transition duration-300">
@@ -54,7 +54,7 @@ function Navbar() {
             <BiNetworkChart />
             Skills
           </Link>
-          <div className="max-w-0 group-hover:max-w-full transition-all duration-300 h-1.5 bg-purple-500" />
+          <div className="rounded-full max-w-0 group-hover:max-w-full transition-all duration-300 h-1.5 bg-purple-500" />
         </span>
 
         <span className="group transition duration-300">
@@ -68,10 +68,10 @@ function Navbar() {
             <BiCollection />
             Projects
           </Link>
-          <div className="max-w-0 group-hover:max-w-full transition-all duration-300 h-1.5 bg-purple-500 " />
+          <div className="rounded-full max-w-0 group-hover:max-w-full transition-all duration-300 h-1.5 bg-purple-500 " />
         </span>
 
-        <span className=" rounded-full bg-purple-800 pl-3 pr-3">
+        <span className=" rounded-full border-2 border-slate-700 bg-purple-500 pl-3 pr-3 hover:bg-purple-700 active:outline active:outline-2 active:outline-purple-500">
           <Link
             className={navButton}
             to="contact"

@@ -47,13 +47,28 @@ function Home() {
           Make sure you <span className="text-purple-500">connect</span> with me
         </div>
         <div className="space-x-4 text-2xl">
-          <button className="rounded-full bg-white  p-0.5 hover:bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 hover:shadow-md hover:shadow-pink-600">
+          <button
+            className="rounded-full bg-white  p-0.5 hover:bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 hover:shadow-md hover:shadow-pink-600"
+            onClick={() => {
+              window.open("https://www.instagram.com/mayank._.1512/", "_blank");
+            }}
+          >
             <AiFillInstagram />
           </button>
-          <button className="rounded-full bg-white text-purple-900 p-0.5  hover:text-black hover:shadow-md hover:shadow-black">
+          <button
+            className="rounded-full bg-white text-purple-900 p-0.5  hover:text-black hover:shadow-md hover:shadow-black"
+            onClick={() => {
+              window.open("https://github.com/mayanks15", "_blank");
+            }}
+          >
             <AiFillGithub />
           </button>
-          <button className="rounded-full bg-white text-purple-900 p-0.5  hover:text-blue-900 hover:shadow-md hover:shadow-blue-700">
+          <button
+            className="rounded-full bg-white text-purple-900 p-0.5  hover:text-blue-900 hover:shadow-md hover:shadow-blue-700"
+            onClick={() => {
+              window.open("https://www.linkedin.com/in/mayank-sharma-b83602230/", "_blank");
+            }}
+          >
             <AiFillLinkedin />
           </button>
         </div>

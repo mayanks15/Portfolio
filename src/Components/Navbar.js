@@ -9,12 +9,13 @@ import classNames from "classnames";
 import { Link } from "react-scroll";
 function Navbar() {
   const navButton = classNames(
-    "flex font-semibold text-white items-center text-lg gap-1 cursor-pointer"
+    "flex font-semibold text-white items-center cursor-pointer text-2xl gap-1"
   );
   return (
-    <div className="flex fixed z-10 backdrop-blur-sm items-center w-full pl-8 pt-4">
-      <div className="font-semibold text-white text-2xl basis-3/12 ">MS</div>
-      <div className="flex  basis-9/12 justify-evenly">
+   
+    <div className="flex fixed z-10 backdrop-blur-sm items-center w-full pl-10 py-6">
+      <div className="font-semibold text-white basis-2/5 text-3xl">MS</div>
+      <div className="flex justify-evenly basis-3/5">
         <span className="group transition duration-300 ">
           <Link
             className={navButton}

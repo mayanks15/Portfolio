@@ -118,14 +118,14 @@ function Skills() {
     }
   });
   return (
-    <div className="pt-24" id="skills">
-      <div className="text-white text-4xl text-center font-playfair">
+    <div className="pt-36" id="skills">
+      <div className="text-white text-5xl text-center font-playfair">
         Skillset
       </div>
-      <div className="text-white text-lg text-center font-raleway">
+      <div className="text-white text-xl text-center font-raleway">
         Tools I'm<span className="text-purple-500"> proficient </span> in...
       </div>
-      <div className="grid grid-cols-4 ring-2 ring-white ring-offset-2 ring-offset-purple-400 rounded-xl justify-items-center ml-32 mr-32 mt-10 p-2">
+      <div className="grid grid-cols-4 ring-2 ring-white ring-offset-2 ring-offset-purple-400 rounded-xl justify-items-center mx-32 mt-16 p-2">
         {renderedSkills}
       </div>
     </div>

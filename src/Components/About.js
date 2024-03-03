@@ -1,16 +1,16 @@
 function About() {
   return (
-    <div className="flex pt-20 " id="about">
-      <div className="w-5/12">
-        <div className="text-white text-4xl ml-16 font-playfair ">About Me</div>
-        <div className="text-white text-lg ml-16 font-raleway">
+    <div className="flex pt-32" id="about">
+      <div className="w-5/12 ">
+        <div className="text-white text-5xl ml-16 font-playfair ">About Me</div>
+        <div className="text-white text-xl ml-16 mt-1 font-raleway">
           Get to <span className="text-purple-500">Know </span>me...
         </div>
         <div className="text-white ml-16 mt-12 space-y-8">
           <div className="font-Lora text-xl">
-            Hello, everyone! I'm <span>Mayank Sharma</span> , a passionate computer science
-            student with a keen interest in Front-End Development and Blockchain
-            Technology.
+            Hello, everyone! I'm <span>Omik Parmani</span> , a passionate
+            computer science student with a keen interest in Front-End
+            Development and Blockchain Technology.
           </div>
           <div className="font-Lora text-xl">
             With a passion for technology, I've honed my skills in creating
@@ -22,7 +22,14 @@ function About() {
             <span className="bg-gradient-to-r from-blue-500 to-slate-200 text-transparent bg-clip-text">
               React.js
             </span>{" "}
-            for dynamic web applications. 
+            for dynamic web applications.
+          </div>
+          <div className="font-Lora text-xl">
+            Driven by curiosity, I'm also venturing into the exciting world of
+            Blockchain, exploring its potential to revolutionize industries and
+            drive innovation. Whether it's crafting elegant code or diving into
+            the blockchain's decentralized future, I'm committed to pushing
+            boundaries and shaping the digital world.
           </div>
           {/* <div className=" font-roboto">
             Moreover, I've delved into the exciting world of{" "}
